@@ -248,8 +248,10 @@
                     Clicked="CalculateSquareAreaButton_OnClicked"
                     Margin="0, 10, 0, 0"
                     Text="Calculate"/>
-                <material:MaterialLabel
-                    />
+                <material:MaterialEntry x:Name="SquareAreaResultEntry"
+                    Text="Result: "
+                    TextColor="Black"
+                    IsEnabled="False"/>
                 
             </StackLayout>
             

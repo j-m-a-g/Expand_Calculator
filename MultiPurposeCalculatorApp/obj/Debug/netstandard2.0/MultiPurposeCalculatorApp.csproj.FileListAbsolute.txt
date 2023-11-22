@@ -13,3 +13,4 @@ C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\ExpandCalculator.dll
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\refint\ExpandCalculator.dll
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\ExpandCalculator.pdb
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.sourcelink.json

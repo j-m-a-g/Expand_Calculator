@@ -12,11 +12,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="" />
+    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/com.companyname.ExpandCalculator.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,7 +132,8 @@
       <workItem from="1700419962781" duration="12105000" />
       <workItem from="1700615731468" duration="1288000" />
       <workItem from="1700617764969" duration="233000" />
-      <workItem from="1700618105988" duration="501000" />
+      <workItem from="1700618105988" duration="1338000" />
+      <workItem from="1700670647805" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -111,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700617252412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1700618877450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700618877450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

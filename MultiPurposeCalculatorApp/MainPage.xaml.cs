@@ -94,15 +94,21 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CalculateSquareAreaButton_OnClicked(object sender, EventArgs e)
 		{
-			string areaUnit;
-			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
-				areaUnit = "yd";
+				SquareRectangleArea("yd");
 			}
 			else if (AreaUnitsChipsGroup.SelectedItem == "Feet (ft)")
 			{
-				areaUnit = "ft";
+				SquareRectangleArea("ft");
+			}
+
+			void SquareRectangleArea(string areaUnit)
+			{
+				double SquareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
+				double SquareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
+				SquareAreaResultEntry.Text = $"Result: {SquareFirstSideEntryDouble * SquareSecondSideEntryDouble} {areaUnit}";
+				;
 			}
 			
 		}
