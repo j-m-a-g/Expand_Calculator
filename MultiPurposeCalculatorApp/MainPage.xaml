@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage 
+<ContentPage x:Name="ExpandCalcMain"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
@@ -45,16 +45,16 @@
             </Grid.ColumnDefinitions>
 
             <!--Conversion calculator-->
-            <ImageButton
-                HorizontalOptions="End"
-                Grid.Column="1"
-                Grid.Row="1"
-                Source="icons8_calculator_24.pmg"
-                BackgroundColor="#27b1f1"
-                CornerRadius="20"
-                Padding="25"
-                IsEnabled="False"
-                Aspect="AspectFit"/>
+            <ImageButton x:Name="ImageButton1"
+                         HorizontalOptions="End"
+                         Grid.Column="1"
+                         Grid.Row="1"
+                         Source="icons8_calculator_24.pmg"
+                         BackgroundColor="#27b1f1"
+                         CornerRadius="20"
+                         Padding="25"
+                         IsEnabled="False"
+                         Aspect="AspectFit"/>
             <material:MaterialLabel
                 VerticalOptions="Center"
                 FontSize="14.5"
@@ -71,15 +71,15 @@
                 TextColor="WhiteSmoke"/>
 
             <!--Area calculator-->
-            <ImageButton
-                HorizontalOptions="End"
-                Grid.Row="2"
-                Grid.Column="1"
-                Padding="25"
-                CornerRadius="20"
-                BackgroundColor="#27b1f1"
-                IsEnabled="False"
-                Source="icons8_rhomboid_shape_24.png"/>
+            <ImageButton x:Name="ImageButton2"
+                         HorizontalOptions="End"
+                         Grid.Row="2"
+                         Grid.Column="1"
+                         Padding="25"
+                         CornerRadius="20"
+                         BackgroundColor="#27b1f1"
+                         IsEnabled="False"
+                         Source="icons8_rhomboid_shape_24.png"/>
             <material:MaterialLabel
                 Grid.Column="2"
                 Grid.Row="2"
@@ -96,15 +96,15 @@
                 Text="Calculates the area of a 2D shape using a measurement unit."/>
 
             <!--Volume calculator-->
-            <ImageButton
-                HorizontalOptions="End"
-                Grid.Row="3"
-                Grid.Column="1"
-                Padding="25"
-                CornerRadius="20"
-                IsEnabled="False"
-                Source="icons8_3d_model_24.png"
-                BackgroundColor="#27b1f1"/>
+            <ImageButton x:Name="ImageButton3"
+                         HorizontalOptions="End"
+                         Grid.Row="3"
+                         Grid.Column="1"
+                         Padding="25"
+                         CornerRadius="20"
+                         IsEnabled="False"
+                         Source="icons8_3d_model_24.png"
+                         BackgroundColor="#27b1f1"/>
             <material:MaterialLabel
                 Grid.Column="2"
                 Grid.Row="3"
@@ -121,15 +121,15 @@
                 Text="Calculates the volume of a 3D shape using a measurement unit."/>
 
             <!--Date calculator-->
-            <ImageButton
-                Grid.Column="1"
-                Grid.Row="4"
-                Source="icons8_date_24.png"
-                Padding="25"
-                HorizontalOptions="End"
-                CornerRadius="20"
-                IsEnabled="False"
-                BackgroundColor="#27b1f1"/>
+            <ImageButton x:Name="ImageButton4"
+                         Grid.Column="1"
+                         Grid.Row="4"
+                         Source="icons8_date_24.png"
+                         Padding="25"
+                         HorizontalOptions="End"
+                         CornerRadius="20"
+                         IsEnabled="False"
+                         BackgroundColor="#27b1f1"/>
             <material:MaterialLabel
                 Text="Date Calculator"
                 TextColor="White"
@@ -332,6 +332,11 @@
                      Padding="75, 100, 75, 0"
                      IsVisible="False">
 
+            <Image
+                Source="Expand_Calculator_Icon.png"
+                WidthRequest="100"
+                HeightRequest="100"
+                Margin="0, 0, 0, 30"/>
             <material:MaterialLabel
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
@@ -345,6 +350,20 @@
                 TextColor="White"
                 FontSize="16"
                 Text="Created and Developed By: Joseph"/>
+            <material:MaterialLabel
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                FontSize="16"
+                FontAttributes="Bold"
+                Text="Version 1.12.31"/>
+            <material:MaterialLabel
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                FontSize="16"
+                FontAttributes="Italic"
+                Text="Please feel free to provide any feedback on new features and report bugs."/>
 
         </StackLayout>
         
@@ -376,7 +395,9 @@
                 <Switch x:Name="DarkModeSwitch"
                     Grid.Row="1"
                     Grid.Column="2"
+                    Toggled="DarkModeSwitch_OnToggled"
                     ThumbColor="#0173b7"
+                    OnColor="#005395"
                     IsToggled="False"/>
                 
             </Grid>
@@ -386,55 +407,62 @@
         <!--
         FlexLayout for the bottom navigation menu.
         -->
-        <FlexLayout x:Name="navigationFlexLayout"
+        <FlexLayout x:Name="NavigationFlexLayout"
             VerticalOptions="EndAndExpand"
             BackgroundColor="#0173b7"
             HeightRequest="50"
             Padding="10">
 
-            <ImageButton x:Name="HomeImageButton" Clicked="HomeImageButton_Clicked"
+            <ImageButton x:Name="HomeImageButton" 
+                Clicked="HomeImageButton_Clicked"
                 Source="icons8_home_24.png"
                 BackgroundColor="#005395"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="ConversionCalcImageButton" Clicked="ConversionCalcImageButton_Clicked"
+            <ImageButton x:Name="ConversionCalcImageButton" 
+                Clicked="ConversionCalcImageButton_Clicked"
                 Source="icons8_calculator_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="AreaCalcImageButton" Clicked="AreaCalcImageButton_Clicked"
+            <ImageButton x:Name="AreaCalcImageButton" 
+                Clicked="AreaCalcImageButton_Clicked"
                 Source="icons8_rhomboid_shape_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="VolumeCalcImageButton" Clicked="VolumeCalcImageButton_Clicked"
+            <ImageButton x:Name="VolumeCalcImageButton" 
+                Clicked="VolumeCalcImageButton_Clicked"
                 Source="icons8_3d_model_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="DateCalcImageButton" Clicked="DateCalcImageButton_Clicked"
+            <ImageButton x:Name="DateCalcImageButton" 
+                Clicked="DateCalcImageButton_Clicked"
                 Source="icons8_date_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="AboutImageButton" Clicked="AboutImageButton_Clicked"
+            <ImageButton x:Name="AboutImageButton" 
+                Clicked="AboutImageButton_Clicked"
                 Source="icons8_about_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"
                 Padding="10"
                 CornerRadius="10"
                 Margin="0, 0, 10, 0"/>
-            <ImageButton x:Name="SettingsImageButton" Clicked="SettingsImageButton_Clicked"
+            <ImageButton x:Name="SettingsImageButton" 
+                Clicked="SettingsImageButton_Clicked"
                 Source="icons8_settings_24.png"
                 BackgroundColor="#0297df"
                 Aspect="AspectFit"

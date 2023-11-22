@@ -153,6 +153,19 @@ namespace MultiPurposeCalculatorApp
 			}
 		}
 		
+		// Settings Page event handlers
+		private void DarkModeSwitch_OnToggled(object sender, ToggledEventArgs e)
+		{
+			if (DarkModeSwitch.IsToggled == true)
+			{
+				EnableDarkMode("#434343", "#555555", "#7b7b7b");
+			}
+			else
+			{
+				DisableDarkMode("#0173b7", "", "");
+			}
+		}
+		
 		/*
 		 UNDERLYING PROGRAM METHODS AND FUNCTIONS
 		 */
@@ -220,6 +233,23 @@ namespace MultiPurposeCalculatorApp
 			SettingsStackLayout.IsVisible = false;
 
 			visiblePage.IsVisible = true;
+		}
+
+		private void EnableDarkMode(string darkAccent1, string darkAccent2, string darkAccent3)
+		{
+			ExpandCalcMain.BackgroundColor = Color.FromHex("#262626");
+			NavigationFlexLayout.BackgroundColor = Color.FromHex(darkAccent1);
+			ImageButton1.BackgroundColor = Color.FromHex(darkAccent2);
+			ImageButton2.BackgroundColor = Color.FromHex(darkAccent2);
+			ImageButton3.BackgroundColor = Color.FromHex(darkAccent2);
+			ImageButton4.BackgroundColor = Color.FromHex(darkAccent2);
+			CalculateSquareAreaButton.BackgroundColor = Color.FromHex(darkAccent3);
+		}
+		
+		private void DisableDarkMode(string lightAccent1, string lightAccent2, string lightAccent3)
+		{
+			ExpandCalcMain.BackgroundColor = Color.FromHex("#0297df");
+			NavigationFlexLayout.BackgroundColor = Color.FromHex(lightAccent1);
 		}
     }
 }
