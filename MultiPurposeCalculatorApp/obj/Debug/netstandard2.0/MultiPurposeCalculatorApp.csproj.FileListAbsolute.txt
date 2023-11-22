@@ -1,0 +1,15 @@
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.csproj.AssemblyReference.cache
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.AssemblyInfoInputs.cache
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.AssemblyInfo.cs
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\MultiPurposeCalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\bin\Debug\netstandard2.0\ExpandCalculator.deps.json
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\bin\Debug\netstandard2.0\ExpandCalculator.dll
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\bin\Debug\netstandard2.0\ref\ExpandCalculator.dll
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\bin\Debug\netstandard2.0\ExpandCalculator.pdb
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\ExpandCalculator.dll
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\refint\ExpandCalculator.dll
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp\obj\Debug\netstandard2.0\ExpandCalculator.pdb
