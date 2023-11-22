@@ -69,6 +69,7 @@ namespace MultiPurposeCalculatorApp
 			if (AreaShapePicker.SelectedIndex == 0)
 			{
 				ChangeAreaShapeCalculation(SquareAreaStackLayout);
+				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "icons8_border_bottom_48.png", "icons8_border_left_48.png");
 			}
 			else if (AreaShapePicker.SelectedIndex == 1)
 			{
@@ -91,9 +92,22 @@ namespace MultiPurposeCalculatorApp
 				ChangeAreaShapeCalculation(CircleStackLayout);
 			}
 		}
+
+		private void SquareFirstSideEntry_OnFocused(object sender, FocusEventArgs e)
+		{
+			SwitchDiagramImages(AreaFirstImage, AreaSecondImage, AreaFirstImage);
+		}
+		
+		private void SquareSecondSideEntry_OnFocused(object sender, FocusEventArgs e)
+		{
+			SwitchDiagramImages(AreaFirstImage, AreaSecondImage, AreaSecondImage);
+		}
 		
 		private void CalculateSquareAreaButton_OnClicked(object sender, EventArgs e)
 		{
+			AreaFirstImage.IsVisible = false;
+			AreaSecondImage.IsVisible = false;
+			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
 				SquareRectangleArea("yd");
@@ -102,23 +116,69 @@ namespace MultiPurposeCalculatorApp
 			{
 				SquareRectangleArea("ft");
 			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Inches (in)")
+			{
+				SquareRectangleArea("in");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Kilometers (km)")
+			{
+				SquareRectangleArea("km");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Meters (m)")
+			{
+				SquareRectangleArea("m");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Centimeters (cm)")
+			{
+				SquareRectangleArea("cm");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Millimeters (mm)")
+			{
+				SquareRectangleArea("mm");
+			}
 
 			void SquareRectangleArea(string areaUnit)
 			{
-				double SquareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
-				double SquareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
-				SquareAreaResultEntry.Text = $"Result: {SquareFirstSideEntryDouble * SquareSecondSideEntryDouble} {areaUnit}";
-				;
+				if ((SquareFirstSideEntry.Text == null && SquareSecondSideEntry.Text == null) || (SquareFirstSideEntry.Text == "" && SquareSecondSideEntry.Text == ""))
+				{
+					SquareAreaErrorLabel.IsVisible = true;
+				}
+				else
+				{
+					AreaResultEntry.IsVisible = true;
+					double SquareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
+					double SquareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
+					AreaResultEntry.Text = $"Area = {SquareFirstSideEntryDouble * SquareSecondSideEntryDouble} {areaUnit}\u00b2";
+				}
 			}
-			
 		}
 		
 		/*
 		 UNDERLYING PROGRAM METHODS AND FUNCTIONS
 		 */
 
+		private void ChangeAreaImages(Image firstImage, Image secondImage, string firstImgSource, string secondImgSource)
+		{
+			firstImage.Source = firstImgSource;
+			secondImage.Source = secondImgSource;
+		}
+		
+		private void SwitchDiagramImages(Image firstDiagram, Image secondDiagram, Image showingDiagram)
+		{
+			AreaResultEntry.IsVisible = false;
+			// Method that allows you to change the informational
+			// diagram shown to the user in any calculator page.
+			firstDiagram.IsVisible = false;
+			secondDiagram.IsVisible = false;
+
+			showingDiagram.IsVisible = true;
+		}
+		
 		private void ChangeAreaShapeCalculation(StackLayout change)
 		{
+			// Hides the initial instructional text on the
+			// AreaCalculator page and changes the StackLayout
+			// depending on what shape is selected.
 			AreaCalcBeginLabel.IsVisible = false;
 			change.IsVisible = true;
 		}

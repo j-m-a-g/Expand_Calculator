@@ -666,3 +666,5 @@ C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\res\drawable\icons8_border_bottom_48.png
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\res\drawable\icons8_border_left_48.png

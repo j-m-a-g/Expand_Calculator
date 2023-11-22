@@ -12,20 +12,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="">
+    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="Adding files to repo">
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/drawable/icons8_border_bottom_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/drawable/icons8_border_left_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/flat/drawable_icons8_border_bottom_48.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/flat/drawable_icons8_border_left_48.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/res/drawable/icons8_border_bottom_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/res/drawable/icons8_border_left_48.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/com.companyname.ExpandCalculator.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/com.companyname.ExpandCalculator-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/com.companyname.ExpandCalculator-Signed.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/appcompat/resources/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/appcompat/resources/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/browser/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/browser/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/constraintlayout/widget/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/constraintlayout/widget/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/coordinatorlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/coordinatorlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/core/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/drawerlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/drawerlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/fragment/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/fragment/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/common/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/common/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/ui/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/navigation/ui/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/preference/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/preference/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/recyclerview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/recyclerview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/transition/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/transition/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/viewpager2/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/androidx/viewpager2/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$interpolator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$plurals.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$plurals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/companyname/expandcalculator/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/classes/com/google/android/material/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/com.companyname.ExpandCalculator.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/com.companyname.ExpandCalculator.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/packaged_resources" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/bin/packaged_resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.arm64-v8a.ll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.arm64-v8a.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.arm64-v8a.o" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.arm64-v8a.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.armeabi-v7a.ll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.armeabi-v7a.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.armeabi-v7a.o" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.armeabi-v7a.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86.ll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86.o" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86_64.ll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86_64.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86_64.o" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/environment.x86_64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/appcompat/resources/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/appcompat/resources/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/browser/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/browser/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/constraintlayout/widget/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/constraintlayout/widget/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/coordinatorlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/core/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/drawerlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/ui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/navigation/ui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/preference/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/preference/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/recyclerview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/recyclerview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/swiperefreshlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/transition/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/transition/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/viewpager2/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/androidx/viewpager2/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/com/companyname/expandcalculator/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/com/companyname/expandcalculator/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/com/google/android/material/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/src/com/google/android/material/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/arm64-v8a/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/arm64-v8a/libxamarin-app.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/armeabi-v7a/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/armeabi-v7a/libxamarin-app.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/x86/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/x86/libxamarin-app.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/x86_64/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/app_shared_libraries/x86_64/libxamarin-app.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/buildid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/buildid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/designtime/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/libraryprojectimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
@@ -36,7 +111,7 @@
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +128,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e6b88171fb9597e89ef5f8e9c39972dc68d9f59471bca3f26af531368ae22ef/Layout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ffc2e1a2c8940ba36dd868d1a498c2be56c6fa82526a97ef64e8520e4c867/StackLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Joseph/source/repos/MultiPurposeCalculatorApp/MultiPurposeCalculatorApp/MainPage.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -67,38 +150,41 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2Y62HdYqNMEWOKWmA2m2v7yzLvY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ResourceManagerPrefKey.ResourceType&quot;: &quot;DRAWABLE&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Xamarin.Android.MultiPurposeCalculatorApp.Android.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Xamarin.Android.MultiPurposeCalculatorApp.Android.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Joseph\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Joseph\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Joseph\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Joseph\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Joseph\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Joseph\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MultiPurposeCalculatorApp.Android" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" />
@@ -133,7 +219,7 @@
       <workItem from="1700615731468" duration="1288000" />
       <workItem from="1700617764969" duration="233000" />
       <workItem from="1700618105988" duration="1338000" />
-      <workItem from="1700670647805" duration="1765000" />
+      <workItem from="1700670647805" duration="10685000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -151,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700618877450</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished square and rectangle area calculation feature">
+      <option name="closed" value="true" />
+      <created>1700683156514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683156514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding files to repo">
+      <option name="closed" value="true" />
+      <created>1700683204471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683204471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,10 +261,13 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Finished square and rectangle area calculation feature" />
+    <MESSAGE value="Adding files to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding files to repo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
