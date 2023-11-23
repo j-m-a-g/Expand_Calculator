@@ -77,6 +77,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icons8_border_bottom_48.png" />
     <AndroidResource Include="Resources\drawable\icons8_border_left_48.png" />
+    <AndroidResource Include="Resources\drawable\triangle_base_image.png" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />

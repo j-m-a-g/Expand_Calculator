@@ -56,10 +56,10 @@ namespace MultiPurposeCalculatorApp {
         private global::Plugin.MaterialDesignControls.Material3.MaterialLabel AreaCalcBeginLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.StackLayout SquareAreaStackLayout;
+        private global::Plugin.MaterialDesignControls.Material3.MaterialLabel AreaErrorLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Plugin.MaterialDesignControls.Material3.MaterialLabel SquareAreaErrorLabel;
+        private global::Xamarin.Forms.StackLayout SquareAreaStackLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Plugin.MaterialDesignControls.Material3.MaterialEntry SquareFirstSideEntry;
@@ -74,6 +74,15 @@ namespace MultiPurposeCalculatorApp {
         private global::Xamarin.Forms.StackLayout TriangleAreaStackLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry TriangleBaseEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry TriangleHeightEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialButton CalculateTriangleAreaButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout TrapezoidStackLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -86,7 +95,7 @@ namespace MultiPurposeCalculatorApp {
         private global::Xamarin.Forms.Image AreaSecondImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Plugin.MaterialDesignControls.Material3.MaterialLabel AreaResultEntry;
+        private global::Plugin.MaterialDesignControls.Material3.MaterialLabel AreaResultLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout VolumeCalculator;
@@ -143,17 +152,20 @@ namespace MultiPurposeCalculatorApp {
             AreaShapePicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialPicker>(this, "AreaShapePicker");
             AreaUnitsChipsGroup = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialChipsGroup>(this, "AreaUnitsChipsGroup");
             AreaCalcBeginLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "AreaCalcBeginLabel");
+            AreaErrorLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "AreaErrorLabel");
             SquareAreaStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SquareAreaStackLayout");
-            SquareAreaErrorLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "SquareAreaErrorLabel");
             SquareFirstSideEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "SquareFirstSideEntry");
             SquareSecondSideEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "SquareSecondSideEntry");
             CalculateSquareAreaButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialButton>(this, "CalculateSquareAreaButton");
             TriangleAreaStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "TriangleAreaStackLayout");
+            TriangleBaseEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TriangleBaseEntry");
+            TriangleHeightEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TriangleHeightEntry");
+            CalculateTriangleAreaButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialButton>(this, "CalculateTriangleAreaButton");
             TrapezoidStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "TrapezoidStackLayout");
             CircleStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "CircleStackLayout");
             AreaFirstImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "AreaFirstImage");
             AreaSecondImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "AreaSecondImage");
-            AreaResultEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "AreaResultEntry");
+            AreaResultLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "AreaResultLabel");
             VolumeCalculator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "VolumeCalculator");
             DateCalculator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "DateCalculator");
             AboutStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "AboutStackLayout");

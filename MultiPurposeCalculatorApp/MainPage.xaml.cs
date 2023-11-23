@@ -69,19 +69,31 @@ namespace MultiPurposeCalculatorApp
 			if (AreaShapePicker.SelectedIndex == 0)
 			{
 				ChangeAreaShapeCalculation(SquareAreaStackLayout);
+				
 				SquareFirstSideEntry.Placeholder = "Length (l)";
 				SquareSecondSideEntry.Placeholder = "Width (w)";
+				
 				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "icons8_border_left_48.png", "icons8_border_bottom_48.png");
+
+				SquareFirstSideEntry.Text = "";
+				SquareSecondSideEntry.Text = "";
 			}
 			else if (AreaShapePicker.SelectedIndex == 1)
 			{
 				ChangeAreaShapeCalculation(SquareAreaStackLayout);
 				SquareFirstSideEntry.Placeholder = "Length (l)";
 				SquareSecondSideEntry.Placeholder = "Width (w)";
+				
+				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "icons8_border_left_48.png", "icons8_border_bottom_48.png");
+				
+				SquareFirstSideEntry.Text = "";
+				SquareSecondSideEntry.Text = "";
 			}
 			else if (AreaShapePicker.SelectedIndex == 2)
 			{
 				ChangeAreaShapeCalculation(TriangleAreaStackLayout);
+				
+				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "triangle_base_image.png", "");
 			}
 			else if (AreaShapePicker.SelectedIndex == 3)
 			{
@@ -147,16 +159,75 @@ namespace MultiPurposeCalculatorApp
 			{
 				if ((SquareFirstSideEntry.Text == null && SquareSecondSideEntry.Text == null) || (SquareFirstSideEntry.Text == "" && SquareSecondSideEntry.Text == ""))
 				{
-					SquareAreaErrorLabel.IsVisible = true;
+					AreaErrorLabel.IsVisible = true;
 				}
 				else
 				{
-					AreaResultEntry.IsVisible = true;
-					double SquareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
-					double SquareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
-					AreaResultEntry.Text = $"Area = {SquareFirstSideEntryDouble * SquareSecondSideEntryDouble} {areaUnit}\u00b2";
+					AreaErrorLabel.IsVisible = false;
+					AreaResultLabel.IsVisible = true;
+					double squareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
+					double squareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
+					AreaResultLabel.Text = $"Area = {squareFirstSideEntryDouble * squareSecondSideEntryDouble} {areaUnit}\u00b2";
 				}
 			}
+		}
+		
+		private void CalculateTriangleAreaButton_OnClicked(object sender, EventArgs e)
+		{
+			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
+			{
+				TriangleArea("yd");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Feet (ft)")
+			{
+				TriangleArea("ft");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Inches (in)")
+			{
+				TriangleArea("in");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Kilometers (km)")
+			{
+				TriangleArea("km");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Meters (m)")
+			{
+				TriangleArea("m");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Centimeters (cm)")
+			{
+				TriangleArea("cm");
+			}
+			else if (AreaUnitsChipsGroup.SelectedItem == "Millimeters (mm)")
+			{
+				TriangleArea("mm");
+			}
+
+			void TriangleArea(string areaUnit)
+			{
+				if ((TriangleBaseEntry.Text == null && TriangleHeightEntry.Text == null) || (TriangleBaseEntry.Text == "" && TriangleHeightEntry.Text == ""))
+				{
+					AreaErrorLabel.IsVisible = true;
+				}
+				else
+				{
+					AreaErrorLabel.IsVisible = false;
+					AreaResultLabel.IsVisible = true;
+					double triangleBaseDouble = double.Parse(TriangleBaseEntry.Text);
+					double triangleHeightDouble = double.Parse(TriangleHeightEntry.Text);
+					AreaResultLabel.Text = $"Area = {triangleBaseDouble * triangleHeightDouble / 2} {areaUnit}\u00b2";
+				}
+			}
+		}
+		
+		private void TriangleBaseEntry_OnFocused(object sender, FocusEventArgs e)
+		{
+			SwitchDiagramImages(AreaFirstImage, AreaSecondImage, AreaFirstImage);
+		}
+		
+		private void TriangleHeightEntry_OnFocused(object sender, FocusEventArgs e)
+		{
+			
 		}
 		
 		// Settings Page event handlers
@@ -168,7 +239,7 @@ namespace MultiPurposeCalculatorApp
 			}
 			else
 			{
-				DisableDarkMode("#0173b7", "", "");
+				DisableDarkMode("#0173b7", "#27b1f1", "");
 			}
 		}
 		
@@ -184,7 +255,7 @@ namespace MultiPurposeCalculatorApp
 		
 		private void SwitchDiagramImages(Image firstDiagram, Image secondDiagram, Image showingDiagram)
 		{
-			AreaResultEntry.IsVisible = false;
+			AreaResultLabel.IsVisible = false;
 			// Method that allows you to change the informational
 			// diagram shown to the user in any calculator page.
 			firstDiagram.IsVisible = false;
@@ -204,6 +275,10 @@ namespace MultiPurposeCalculatorApp
 			TrapezoidStackLayout.IsVisible = false;
 			CircleStackLayout.IsVisible = false;
 			
+			AreaResultLabel.IsVisible = false;
+			AreaFirstImage.IsVisible = false;
+			AreaSecondImage.IsVisible = false;
+			
 			change.IsVisible = true;
 		}
 		
@@ -213,7 +288,6 @@ namespace MultiPurposeCalculatorApp
 			// each ImageButton to a non-clicked state, then sets the
 			// desired parameter-based ImageButton to have a BackgroundColor
 			// of a clicked state.
-			
 			HomeImageButton.BackgroundColor = Color.FromHex(_navigationUnclickedHex);
 			ConversionCalcImageButton.BackgroundColor = Color.FromHex(_navigationUnclickedHex);
 			AreaCalcImageButton.BackgroundColor = Color.FromHex(_navigationUnclickedHex);
@@ -261,6 +335,10 @@ namespace MultiPurposeCalculatorApp
 		{
 			ExpandCalcMain.BackgroundColor = Color.FromHex("#0297df");
 			NavigationFlexLayout.BackgroundColor = Color.FromHex(lightAccent1);
+			ImageButton1.BackgroundColor = Color.FromHex(lightAccent2);
+			ImageButton2.BackgroundColor = Color.FromHex(lightAccent2);
+			ImageButton3.BackgroundColor = Color.FromHex(lightAccent2);
+			ImageButton4.BackgroundColor = Color.FromHex(lightAccent2);
 		}
     }
 }
