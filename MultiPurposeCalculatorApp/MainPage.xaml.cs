@@ -69,11 +69,15 @@ namespace MultiPurposeCalculatorApp
 			if (AreaShapePicker.SelectedIndex == 0)
 			{
 				ChangeAreaShapeCalculation(SquareAreaStackLayout);
-				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "icons8_border_bottom_48.png", "icons8_border_left_48.png");
+				SquareFirstSideEntry.Placeholder = "Length (l)";
+				SquareSecondSideEntry.Placeholder = "Width (w)";
+				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "icons8_border_left_48.png", "icons8_border_bottom_48.png");
 			}
 			else if (AreaShapePicker.SelectedIndex == 1)
 			{
 				ChangeAreaShapeCalculation(SquareAreaStackLayout);
+				SquareFirstSideEntry.Placeholder = "Length (l)";
+				SquareSecondSideEntry.Placeholder = "Width (w)";
 			}
 			else if (AreaShapePicker.SelectedIndex == 2)
 			{
@@ -81,7 +85,9 @@ namespace MultiPurposeCalculatorApp
 			}
 			else if (AreaShapePicker.SelectedIndex == 3)
 			{
-				ChangeAreaShapeCalculation(ParallelogramStackLayout);
+				ChangeAreaShapeCalculation(SquareAreaStackLayout);
+				SquareFirstSideEntry.Placeholder = "Base (b)";
+				SquareSecondSideEntry.Placeholder = "Height (h)";
 			}
 			else if (AreaShapePicker.SelectedIndex == 4)
 			{
@@ -158,7 +164,7 @@ namespace MultiPurposeCalculatorApp
 		{
 			if (DarkModeSwitch.IsToggled == true)
 			{
-				EnableDarkMode("#434343", "#555555", "#7b7b7b");
+				EnableDarkMode("#434343", "#555555");
 			}
 			else
 			{
@@ -193,6 +199,11 @@ namespace MultiPurposeCalculatorApp
 			// AreaCalculator page and changes the StackLayout
 			// depending on what shape is selected.
 			AreaCalcBeginLabel.IsVisible = false;
+			SquareAreaStackLayout.IsVisible = false;
+			TriangleAreaStackLayout.IsVisible = false;
+			TrapezoidStackLayout.IsVisible = false;
+			CircleStackLayout.IsVisible = false;
+			
 			change.IsVisible = true;
 		}
 		
@@ -235,7 +246,7 @@ namespace MultiPurposeCalculatorApp
 			visiblePage.IsVisible = true;
 		}
 
-		private void EnableDarkMode(string darkAccent1, string darkAccent2, string darkAccent3)
+		private void EnableDarkMode(string darkAccent1, string darkAccent2)
 		{
 			ExpandCalcMain.BackgroundColor = Color.FromHex("#262626");
 			NavigationFlexLayout.BackgroundColor = Color.FromHex(darkAccent1);
@@ -243,7 +254,7 @@ namespace MultiPurposeCalculatorApp
 			ImageButton2.BackgroundColor = Color.FromHex(darkAccent2);
 			ImageButton3.BackgroundColor = Color.FromHex(darkAccent2);
 			ImageButton4.BackgroundColor = Color.FromHex(darkAccent2);
-			CalculateSquareAreaButton.BackgroundColor = Color.FromHex(darkAccent3);
+			CalculateSquareAreaButton.BackgroundColor = Color.FromHex(darkAccent2);
 		}
 		
 		private void DisableDarkMode(string lightAccent1, string lightAccent2, string lightAccent3)

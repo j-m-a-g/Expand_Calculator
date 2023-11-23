@@ -227,7 +227,7 @@
                 Text="Select a 2D shape above to begin"
                 HorizontalOptions="Center"/>
             
-            <!--Square and Rectangle Area-->
+            <!--Square, Rectangle and Parallelogram Area-->
             <StackLayout x:Name="SquareAreaStackLayout"
                          Margin="0, 20, 0, 0"
                          IsVisible="False">
@@ -240,14 +240,14 @@
                     BackgroundColor="#4dbef3"
                     Focused="SquareFirstSideEntry_OnFocused"
                     FocusedBackgroundColor="#4dbef3"
-                    Placeholder="Length (L)"
+                    Placeholder="Length (l)"
                     Keyboard="Numeric"
                     Margin="0, 0, 0, 10"/>
                 <material:MaterialEntry x:Name="SquareSecondSideEntry"
                     BackgroundColor="#4dbef3"
                     Focused="SquareSecondSideEntry_OnFocused"
                     FocusedBackgroundColor="#4dbef3"
-                    Placeholder="Width (W)"
+                    Placeholder="Width (w)"
                     Keyboard="Numeric"/>
                 <material:MaterialButton x:Name="CalculateSquareAreaButton"
                     BackgroundColor="#005395"
@@ -259,15 +259,6 @@
             
             <!--Triangle Area-->
             <StackLayout x:Name="TriangleAreaStackLayout"
-                         Margin="0, 100, 0, 0"
-                         IsVisible="False">
-                
-                
-                
-            </StackLayout>
-            
-            <!--Parallelogram Area-->
-            <StackLayout x:Name="ParallelogramStackLayout"
                          Margin="0, 100, 0, 0"
                          IsVisible="False">
                 
