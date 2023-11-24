@@ -12,8 +12,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator">
+    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="Fixed some code and added a parameter for an image for the height of a triangle">
       <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/drawable/triangle_height_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/com.companyname.ExpandCalculator.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/flat/drawable_triangle_height_image.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/res/drawable/triangle_height_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" afterDir="false" />
@@ -96,6 +99,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e6b88171fb9597e89ef5f8e9c39972dc68d9f59471bca3f26af531368ae22ef/Layout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ffc2e1a2c8940ba36dd868d1a498c2be56c6fa82526a97ef64e8520e4c867/StackLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Joseph/source/repos/MultiPurposeCalculatorApp/MultiPurposeCalculatorApp/MainPage.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -179,7 +183,7 @@
       <workItem from="1700618105988" duration="1338000" />
       <workItem from="1700670647805" duration="15330000" />
       <workItem from="1700700176061" duration="1477000" />
-      <workItem from="1700756425745" duration="7950000" />
+      <workItem from="1700756425745" duration="8683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -272,7 +276,8 @@
     <MESSAGE value="Added support for calculating the area of a parallelogram from the basis of the square and rectangle area page and functions" />
     <MESSAGE value="Fixed some bugs related to switching AreaCalculator pages and began working on the calculator for a triangle's area" />
     <MESSAGE value="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator" />
+    <MESSAGE value="Fixed some code and added a parameter for an image for the height of a triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some code and added a parameter for an image for the height of a triangle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
