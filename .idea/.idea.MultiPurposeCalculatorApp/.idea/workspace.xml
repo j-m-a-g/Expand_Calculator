@@ -12,8 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/drawable/triangle_base_image.png" afterDir="false" />
+    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator">
+      <change afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/drawable/triangle_height_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/MultiPurposeCalculatorApp.Android.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/Resources/Resource.designer.cs" afterDir="false" />
@@ -62,14 +62,12 @@
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/buildid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/buildid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/designtime/Resource.designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/devices.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/devices.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" afterDir="false" />
@@ -89,6 +87,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -179,7 +179,7 @@
       <workItem from="1700618105988" duration="1338000" />
       <workItem from="1700670647805" duration="15330000" />
       <workItem from="1700700176061" duration="1477000" />
-      <workItem from="1700756425745" duration="5624000" />
+      <workItem from="1700756425745" duration="7950000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -237,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700706285071</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed some bugs related to switching AreaCalculator pages and began working on the calculator for a triangle's area">
+      <option name="closed" value="true" />
+      <created>1700780390808</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700780390808</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator">
+      <option name="closed" value="true" />
+      <created>1700780576326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700780576326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +270,9 @@
     <MESSAGE value="Finished implementing square and rectangle area calculations:&#10;-Descriptive images&#10;-Triggered events" />
     <MESSAGE value="Began working on light and dark mode feature that is switched through a toggle" />
     <MESSAGE value="Added support for calculating the area of a parallelogram from the basis of the square and rectangle area page and functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for calculating the area of a parallelogram from the basis of the square and rectangle area page and functions" />
+    <MESSAGE value="Fixed some bugs related to switching AreaCalculator pages and began working on the calculator for a triangle's area" />
+    <MESSAGE value="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new image for representing a triangle's base when clicking on the base entry for the triangle area calculator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

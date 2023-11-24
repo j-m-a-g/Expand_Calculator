@@ -93,7 +93,7 @@ namespace MultiPurposeCalculatorApp
 			{
 				ChangeAreaShapeCalculation(TriangleAreaStackLayout);
 				
-				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "triangle_base_image.png", "");
+				ChangeAreaImages(AreaFirstImage, AreaSecondImage, "triangle_base_image.png", "triangle_height_image.png");
 			}
 			else if (AreaShapePicker.SelectedIndex == 3)
 			{
@@ -174,6 +174,9 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CalculateTriangleAreaButton_OnClicked(object sender, EventArgs e)
 		{
+			AreaFirstImage.IsVisible = false;
+			AreaSecondImage.IsVisible = false;
+			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
 				TriangleArea("yd");
@@ -227,7 +230,7 @@ namespace MultiPurposeCalculatorApp
 		
 		private void TriangleHeightEntry_OnFocused(object sender, FocusEventArgs e)
 		{
-			
+			SwitchDiagramImages(AreaFirstImage, AreaSecondImage, AreaSecondImage);
 		}
 		
 		// Settings Page event handlers

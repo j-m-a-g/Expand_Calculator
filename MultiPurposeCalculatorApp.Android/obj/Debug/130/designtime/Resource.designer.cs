@@ -20111,6 +20111,9 @@ namespace MultiPurposeCalculatorApp.Droid
 			// aapt resource value: 0x7F07009A
 			public const int triangle_base_image = 2131165338;
 			
+			// aapt resource value: 0x7F07009B
+			public const int triangle_height_image = 2131165339;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
