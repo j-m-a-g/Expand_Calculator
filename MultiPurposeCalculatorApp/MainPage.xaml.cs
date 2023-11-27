@@ -323,9 +323,52 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CircleRadiusDiameterEntry_OnFocused(object sender, FocusEventArgs e)
 		{
-			AreaResultLabel.IsVisible = false;
-			CircleDiagramsGrid.IsVisible = true;
-			AreaErrorLabel.IsVisible = false;
+			// PERFORMANCE TWEAKS
+			
+			// Checks if AreaResultLabel is visible or not
+			// and decides to hide it or do nothing accordingly
+			switch (AreaResultLabel.IsVisible)
+			{
+				case true:
+				{
+					AreaResultLabel.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+			}
+
+			// Checks if CircleDiagramsGrid is visible or not
+			// and decides to hide it or do nothing accordingly
+			switch (CircleDiagramsGrid.IsVisible)
+			{
+				case true:
+				{
+					CircleDiagramsGrid.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+			}
+
+			// Checks if AreaErrorLabel is visible or not
+			// and decides to hide it or do nothing accordingly
+			switch (AreaErrorLabel.IsVisible)
+			{
+				case true:
+				{
+					AreaResultLabel.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+			}
 		}
 		
 		private void CalculateCircleAreaButton_OnClicked(object sender, EventArgs e)
@@ -527,7 +570,10 @@ namespace MultiPurposeCalculatorApp
 		private void DisableDarkMode(string lightAccent1, string lightAccent2, string lightAccent3)
 		{
 			ExpandCalcMain.BackgroundColor = Color.FromHex("#0297df");
+			
 			NavigationFlexLayout.BackgroundColor = Color.FromHex(lightAccent1);
+			AreaShapePicker.BackgroundColor = Color.FromHex(lightAccent1);
+			
 			ImageButton1.BackgroundColor = Color.FromHex(lightAccent2);
 			ImageButton2.BackgroundColor = Color.FromHex(lightAccent2);
 			ImageButton3.BackgroundColor = Color.FromHex(lightAccent2);
