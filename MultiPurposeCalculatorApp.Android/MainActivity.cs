@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using SegmentedControl.FormsPlugin.Android;
 
 namespace MultiPurposeCalculatorApp.Droid
 {
@@ -15,6 +16,7 @@ namespace MultiPurposeCalculatorApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 			Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Plugin.MaterialDesignControls.Android.Renderer.Init();
+            SegmentedControlRenderer.Init();
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

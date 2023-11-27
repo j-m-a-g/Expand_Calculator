@@ -86,13 +86,40 @@ namespace MultiPurposeCalculatorApp {
         private global::Xamarin.Forms.StackLayout TrapezoidStackLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry TrapezoidFirstBaseEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry TrapezoidSecondBaseEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry TrapezoidHeightEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialButton CalculateTrapezoidAreaButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout CircleStackLayout;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::SegmentedControl.FormsPlugin.Abstractions.SegmentedControl RadiusDiameterSegmentedControl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialEntry CircleRadiusDiameterEntry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Plugin.MaterialDesignControls.Material3.MaterialButton CalculateCircleAreaButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Grid CircleDiagramsGrid;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Image AreaFirstImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Image AreaSecondImage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Image AreaThirdImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Plugin.MaterialDesignControls.Material3.MaterialLabel AreaResultLabel;
@@ -162,9 +189,18 @@ namespace MultiPurposeCalculatorApp {
             TriangleHeightEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TriangleHeightEntry");
             CalculateTriangleAreaButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialButton>(this, "CalculateTriangleAreaButton");
             TrapezoidStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "TrapezoidStackLayout");
+            TrapezoidFirstBaseEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TrapezoidFirstBaseEntry");
+            TrapezoidSecondBaseEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TrapezoidSecondBaseEntry");
+            TrapezoidHeightEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "TrapezoidHeightEntry");
+            CalculateTrapezoidAreaButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialButton>(this, "CalculateTrapezoidAreaButton");
             CircleStackLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "CircleStackLayout");
+            RadiusDiameterSegmentedControl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SegmentedControl.FormsPlugin.Abstractions.SegmentedControl>(this, "RadiusDiameterSegmentedControl");
+            CircleRadiusDiameterEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialEntry>(this, "CircleRadiusDiameterEntry");
+            CalculateCircleAreaButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialButton>(this, "CalculateCircleAreaButton");
+            CircleDiagramsGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "CircleDiagramsGrid");
             AreaFirstImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "AreaFirstImage");
             AreaSecondImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "AreaSecondImage");
+            AreaThirdImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "AreaThirdImage");
             AreaResultLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Plugin.MaterialDesignControls.Material3.MaterialLabel>(this, "AreaResultLabel");
             VolumeCalculator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "VolumeCalculator");
             DateCalculator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "DateCalculator");

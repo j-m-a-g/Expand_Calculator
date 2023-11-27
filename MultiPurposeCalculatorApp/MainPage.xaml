@@ -3,13 +3,14 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
+    xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     x:Class="MultiPurposeCalculatorApp.MainPage"
     BackgroundColor="#0297df">
-
+    
     <StackLayout>
         
         <StackLayout x:Name="WelcomeStackLayout"
-                     Padding="75, 75, 75, 0">
+            Padding="10, 100, 10, 0">
 
             <Image
                 Source="Expand_Calculator_Icon.png"
@@ -28,33 +29,41 @@
                 FontAttributes="None"
                 TextColor="White"/>
 
-        </StackLayout>
-
-        <!--
+            <!--
         Grid for displaying the calculator modes.
         -->
         <Grid x:Name="CalcModesGrid"
             HorizontalOptions="Center"
             VerticalOptions="Center"
-            Padding="80, 0, 35, 0"
-            Margin="-80, -50, 0, 0"
+            Margin="0, 0, 45, 0"
             RowSpacing="10">
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="94"/>
+                <ColumnDefinition Width="120"/>
             </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
             <!--Conversion calculator-->
             <ImageButton x:Name="ImageButton1"
-                         HorizontalOptions="End"
-                         Grid.Column="1"
-                         Grid.Row="1"
-                         Source="icons8_calculator_24.pmg"
-                         BackgroundColor="#27b1f1"
-                         CornerRadius="20"
-                         Padding="25"
-                         IsEnabled="False"
-                         Aspect="AspectFit"/>
+                 HorizontalOptions="End"
+                 Grid.Column="1"
+                 Grid.Row="1"
+                 Source="icons8_calculator_24.pmg"
+                 BackgroundColor="#27b1f1"
+                 CornerRadius="20"
+                 Padding="25"
+                 IsEnabled="False"
+                 Aspect="AspectFit"/>
             <material:MaterialLabel
                 VerticalOptions="Center"
                 FontSize="14.5"
@@ -72,14 +81,14 @@
 
             <!--Area calculator-->
             <ImageButton x:Name="ImageButton2"
-                         HorizontalOptions="End"
-                         Grid.Row="2"
-                         Grid.Column="1"
-                         Padding="25"
-                         CornerRadius="20"
-                         BackgroundColor="#27b1f1"
-                         IsEnabled="False"
-                         Source="icons8_rhomboid_shape_24.png"/>
+                 HorizontalOptions="End"
+                 Grid.Row="2"
+                 Grid.Column="1"
+                 Padding="25"
+                 CornerRadius="20"
+                 BackgroundColor="#27b1f1"
+                 IsEnabled="False"
+                 Source="icons8_rhomboid_shape_24.png"/>
             <material:MaterialLabel
                 Grid.Column="2"
                 Grid.Row="2"
@@ -145,6 +154,10 @@
                 Text="Calculates the difference between two dates."/>
 
         </Grid>
+            
+        </StackLayout>
+
+        
 
         <material:MaterialLabel x:Name="NavigationInstructionLabel"
             Text="You can navigate through the navigation bar below."
@@ -233,8 +246,8 @@
 
             <!--Square, Rectangle and Parallelogram Area-->
             <StackLayout x:Name="SquareAreaStackLayout"
-                         Margin="0, 5, 0, 0"
-                         IsVisible="False">
+                 Margin="0, 5, 0, 0"
+                 IsVisible="False">
                 
                 <material:MaterialEntry x:Name="SquareFirstSideEntry"
                     BackgroundColor="#4dbef3"
@@ -259,8 +272,8 @@
             
             <!--Triangle Area-->
             <StackLayout x:Name="TriangleAreaStackLayout"
-                         Margin="0, 5, 0, 0"
-                         IsVisible="False">
+                 Margin="0, 5, 0, 0"
+                 IsVisible="False">
                 
                 <material:MaterialEntry x:Name="TriangleBaseEntry"
                     FocusedBackgroundColor="#4dbef3"
@@ -285,30 +298,123 @@
             
             <!--Trapezoid Area-->
             <StackLayout x:Name="TrapezoidStackLayout"
-                         Margin="0, 100, 0, 0"
-                         IsVisible="False">
+                 Margin="0, 5, 0, 0"
+                 IsVisible="False">
                 
-                
+                <material:MaterialEntry x:Name="TrapezoidFirstBaseEntry"
+                    FocusedBackgroundColor="#4dbef3"
+                    BackgroundColor="#4dbef3"
+                    Placeholder="Base (a)"
+                    Keyboard="Numeric"
+                    Focused="TrapezoidFirstBaseEntry_OnFocused"
+                    Margin="0, 0, 0, 0"/>
+                <material:MaterialEntry x:Name="TrapezoidSecondBaseEntry"
+                    FocusedBackgroundColor="#4dbef3"
+                    BackgroundColor="#4dbef3"
+                    Placeholder="Base (b)"
+                    Keyboard="Numeric"
+                    Focused="TrapezoidSecondBaseEntry_OnFocused"
+                    Margin="0, 0, 0, 0"/>
+                <material:MaterialEntry x:Name="TrapezoidHeightEntry"
+                    FocusedBackgroundColor="#4dbef3"
+                    BackgroundColor="#4dbef3"
+                    Placeholder="Height (h)"
+                    Focused="TrapezoidHeightEntry_OnFocused"
+                    Keyboard="Numeric"/>
+                <material:MaterialButton x:Name="CalculateTrapezoidAreaButton"
+                     BackgroundColor="#005395"
+                     Margin="0, 10, 0, 10"
+                     Clicked="CalculateTrapezoidAreaButton_OnClicked"
+                     Text="Calculate"/>
                 
             </StackLayout>
             
             <!--Circle Area-->
             <StackLayout x:Name="CircleStackLayout"
-                         Margin="0, 100, 0, 0"
-                         IsVisible="False">
+                 Margin="0, 5, 0, 0"
+                 IsVisible="False">
                 
+                <controls:SegmentedControl x:Name="RadiusDiameterSegmentedControl"
+                    TintColor="#005395"
+                    SelectedTextColor="White"
+                    BackgroundColor="#4dbef3"
+                    Margin="0, 0, 0, 5">
+                    
+                    <controls:SegmentedControl.Children>
+                        <controls:SegmentedControlOption Text="Radius (r)"/>
+                        <controls:SegmentedControlOption Text="Diameter (d)"/>
+                    </controls:SegmentedControl.Children>
+                    
+                </controls:SegmentedControl>
+                <material:MaterialEntry x:Name="CircleRadiusDiameterEntry"
+                    FocusedBackgroundColor="#4dbef3"
+                    BackgroundColor="#4dbef3"
+                    Placeholder="Measurement"
+                    Focused="CircleRadiusDiameterEntry_OnFocused"
+                    Keyboard="Numeric"/>
+                <material:MaterialButton x:Name="CalculateCircleAreaButton"
+                     BackgroundColor="#005395"
+                     Clicked="CalculateCircleAreaButton_OnClicked"
+                     Margin="0, 10, 0, 10"
+                     Text="Calculate"/>
                 
+                <Grid x:Name="CircleDiagramsGrid"
+                    Margin="90, 5, 0, 0">
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    
+                    <!--Radius diagram-->
+                    <material:MaterialLabel
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        Text="Radius (r)"
+                        Grid.Row="0"
+                        Grid.Column="0"/>
+                    <Image
+                        Grid.Row="1"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        Grid.Column="0"
+                        Source="icons8_radius_96.png"/>
+                    
+                    <!--Diameter Diagram-->
+                    <material:MaterialLabel
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        Text="Diameter (d)"
+                        Grid.Row="0"
+                        Grid.Column="1"/>
+                    <Image
+                        Grid.Row="1"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        Grid.Column="1"
+                        Source="icons8_diameter_96.png"/>
+                    
+                </Grid>
                 
             </StackLayout>
             
             <Image x:Name="AreaFirstImage"
-                   IsVisible="False"
-                   WidthRequest="100"
-                   HeightRequest="100"/>
+               IsVisible="False"
+               WidthRequest="100"
+               HeightRequest="100"/>
             <Image x:Name="AreaSecondImage"
-                   IsVisible="False"
-                   WidthRequest="100"
-                   HeightRequest="100"/>
+               IsVisible="False"
+               WidthRequest="100"
+               HeightRequest="100"/>
+            <Image x:Name="AreaThirdImage"
+               IsVisible="False"
+               WidthRequest="100"
+               HeightRequest="100"/>
             <material:MaterialLabel x:Name="AreaResultLabel"
                 BackgroundColor="#0283cb"
                 IsVisible="False"
@@ -337,8 +443,8 @@
         
         <!--About page-->
         <StackLayout x:Name="AboutStackLayout"
-                     Padding="75, 100, 75, 0"
-                     IsVisible="False">
+             Padding="75, 100, 75, 0"
+             IsVisible="False">
 
             <Image
                 Source="Expand_Calculator_Icon.png"
@@ -377,8 +483,8 @@
         
         <!--Settings page-->
         <StackLayout x:Name="SettingsStackLayout"
-                     Padding="75, 100, 75, 0"
-                     IsVisible="False">
+             Padding="75, 100, 75, 0"
+             IsVisible="False">
             
             <material:MaterialLabel
                 HorizontalOptions="Center"
@@ -387,8 +493,10 @@
                 TextColor="White"
                 FontSize="Title"
                 Text="Settings"/>
+            
             <Grid
                 Margin="-100, 0, 0, 0">
+                
                 <Grid.ColumnDefinitions>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>

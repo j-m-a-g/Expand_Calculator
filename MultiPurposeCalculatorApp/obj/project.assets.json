@@ -42,6 +42,18 @@
           }
         }
       },
+      "SegmentedControl.FormsPlugin/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/netstandard2.0/SegmentedControl.FormsPlugin.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SegmentedControl.FormsPlugin.Abstractions.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -263,6 +275,29 @@
         "lib/netstandard1.0/Plugin.MaterialDesignControls.xml",
         "plugin.materialdesigncontrols.3.0.4.nupkg.sha512",
         "plugin.materialdesigncontrols.nuspec"
+      ]
+    },
+    "SegmentedControl.FormsPlugin/2.0.1": {
+      "sha512": "+kywCzsJv8eQEvftZaVK5EBiRqekcig33uJTVMiAp3/endbRQXPD6r52wUOtcCGr5t9JU6Ks3Jud4p0tByMRbw==",
+      "type": "package",
+      "path": "segmentedcontrol.formsplugin/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SegmentedControl.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/SegmentedControl.FormsPlugin.Android.dll",
+        "lib/UAP10/SegmentedControl.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/SegmentedControl.FormsPlugin.UWP.dll",
+        "lib/UAP10/SegmentedControl.FormsPlugin.UWP.pri",
+        "lib/UAP10/SegmentedControl.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/SegmentedRadioButtonStyle.xbf",
+        "lib/UAP10/SegmentedUserControl.xbf",
+        "lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/SegmentedControl.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll",
+        "segmentedcontrol.formsplugin.2.0.1.nupkg.sha512",
+        "segmentedcontrol.formsplugin.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -575,6 +610,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Plugin.MaterialDesignControls >= 3.0.4",
+      "SegmentedControl.FormsPlugin >= 2.0.1",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -633,6 +669,10 @@
           "Plugin.MaterialDesignControls": {
             "target": "Package",
             "version": "[3.0.4, )"
+          },
+          "SegmentedControl.FormsPlugin": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

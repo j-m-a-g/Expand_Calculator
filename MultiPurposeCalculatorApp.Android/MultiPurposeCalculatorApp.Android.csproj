@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Plugin.MaterialDesignControls" Version="3.0.4" />
+    <PackageReference Include="SegmentedControl.FormsPlugin" Version="2.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -77,6 +78,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icons8_border_bottom_48.png" />
     <AndroidResource Include="Resources\drawable\icons8_border_left_48.png" />
+    <AndroidResource Include="Resources\drawable\icons8_diameter_96.png" />
+    <AndroidResource Include="Resources\drawable\icons8_radius_96.png" />
+    <AndroidResource Include="Resources\drawable\parallelogram_base_image.png" />
+    <AndroidResource Include="Resources\drawable\parallelogram_height_image.png" />
+    <AndroidResource Include="Resources\drawable\trapezoid_base_a_image.png" />
+    <AndroidResource Include="Resources\drawable\trapezoid_base_b_image.png" />
+    <AndroidResource Include="Resources\drawable\trapezoid_height.png" />
     <AndroidResource Include="Resources\drawable\triangle_base_image.png" />
     <AndroidResource Include="Resources\drawable\triangle_height_image.png" />
     <AndroidResource Include="Resources\values\styles.xml" />
