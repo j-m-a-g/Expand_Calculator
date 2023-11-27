@@ -12,9 +12,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="Finished implementing circle area calculation feature, added corresponding images, and fixed some bugs">
+    <list default="true" id="7dd4fbc3-e751-4185-8b02-849fae1192ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiPurposeCalculatorApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/bin/Debug/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/Debug/130/android/assets/MultiPurposeCalculatorApp.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp.Android/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/bin/Debug/netstandard2.0/ref/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/ExpandCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/MultiPurposeCalculatorApp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/Debug/netstandard2.0/refint/ExpandCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MultiPurposeCalculatorApp/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +146,8 @@
       <workItem from="1700838659342" duration="1882000" />
       <workItem from="1700960575012" duration="1365000" />
       <workItem from="1700961948194" duration="303000" />
-      <workItem from="1701112397327" duration="9419000" />
+      <workItem from="1701112397327" duration="10556000" />
+      <workItem from="1701125457289" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -221,13 +245,32 @@
       <option name="project" value="LOCAL" />
       <updated>1701123736209</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Started working on performance tweaks and improvements&#10;-Implementing switch conditionals for OnFocused event handlers">
+      <option name="closed" value="true" />
+      <created>1701124364097</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701124364097</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -244,7 +287,8 @@
     <MESSAGE value="workspace.xml file modification" />
     <MESSAGE value="Began working on trapezoid area feature and associating its diagram images" />
     <MESSAGE value="Finished implementing circle area calculation feature, added corresponding images, and fixed some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished implementing circle area calculation feature, added corresponding images, and fixed some bugs" />
+    <MESSAGE value="Started working on performance tweaks and improvements&#10;-Implementing switch conditionals for OnFocused event handlers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on performance tweaks and improvements&#10;-Implementing switch conditionals for OnFocused event handlers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

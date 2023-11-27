@@ -166,7 +166,7 @@ namespace MultiPurposeCalculatorApp
 
 			void SquareRectangleArea(string areaUnit)
 			{
-				if ((SquareFirstSideEntry.Text == null && SquareSecondSideEntry.Text == null) || (SquareFirstSideEntry.Text == "" && SquareSecondSideEntry.Text == ""))
+				if (String.IsNullOrEmpty(SquareFirstSideEntry.Text) || String.IsNullOrEmpty(SquareSecondSideEntry.Text))
 				{
 					AreaErrorLabel.IsVisible = true;
 				}
@@ -217,7 +217,7 @@ namespace MultiPurposeCalculatorApp
 
 			void TriangleArea(string areaUnit)
 			{
-				if ((TriangleBaseEntry.Text == null && TriangleHeightEntry.Text == null) || (TriangleBaseEntry.Text == "" && TriangleHeightEntry.Text == ""))
+				if (String.IsNullOrEmpty(TriangleBaseEntry.Text) || String.IsNullOrEmpty(TriangleHeightEntry.Text))
 				{
 					AreaErrorLabel.IsVisible = true;
 				}
@@ -280,7 +280,7 @@ namespace MultiPurposeCalculatorApp
 
 			void TrapezoidArea(string areaUnit)
 			{
-				if ((TrapezoidFirstBaseEntry.Text == null && TrapezoidSecondBaseEntry.Text == null && TrapezoidHeightEntry.Text == null) || (TriangleBaseEntry.Text == "" && TriangleHeightEntry.Text == "" && TrapezoidHeightEntry.Text == ""))
+				if (String.IsNullOrEmpty(TrapezoidFirstBaseEntry.Text) || String.IsNullOrEmpty(TrapezoidSecondBaseEntry.Text))
 				{
 					HideAreaImages();
 					AreaErrorLabel.IsVisible = true;
@@ -323,6 +323,8 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CircleRadiusDiameterEntry_OnFocused(object sender, FocusEventArgs e)
 		{
+			AreaErrorLabel.IsVisible = false;
+			
 			// PERFORMANCE TWEAKS
 			
 			// Checks if AreaResultLabel is visible or not
@@ -338,6 +340,11 @@ namespace MultiPurposeCalculatorApp
 				{
 					break;
 				}
+				default:
+				{
+					AreaResultLabel.IsVisible = false;
+					break;
+				}
 			}
 
 			// Checks if CircleDiagramsGrid is visible or not
@@ -346,26 +353,12 @@ namespace MultiPurposeCalculatorApp
 			{
 				case true:
 				{
-					CircleDiagramsGrid.IsVisible = false;
 					break;
 				}
 				case false:
 				{
-					break;
-				}
-			}
-
-			// Checks if AreaErrorLabel is visible or not
-			// and decides to hide it or do nothing accordingly
-			switch (AreaErrorLabel.IsVisible)
-			{
-				case true:
-				{
-					AreaResultLabel.IsVisible = false;
-					break;
-				}
-				case false:
-				{
+					// We want the CircleDiagramsGrid to appear
+					CircleDiagramsGrid.IsVisible = true;
 					break;
 				}
 			}
@@ -407,13 +400,15 @@ namespace MultiPurposeCalculatorApp
 
 			void CircleArea(string areaUnit)
 			{
-				if (CircleRadiusDiameterEntry.Text == null || CircleRadiusDiameterEntry.Text == "")
+				if (String.IsNullOrEmpty(CircleRadiusDiameterEntry.Text))
 				{
 					AreaResultLabel.IsVisible = false;
 					AreaErrorLabel.IsVisible = true;
 				}
 				else
 				{
+					AreaErrorLabel.IsVisible = false;
+					
 					double circleMeasurement = double.Parse(CircleRadiusDiameterEntry.Text);
 				
 					if (RadiusDiameterSegmentedControl.SelectedSegment == 0)
@@ -509,6 +504,7 @@ namespace MultiPurposeCalculatorApp
 			CircleStackLayout.IsVisible = false;
 			
 			AreaResultLabel.IsVisible = false;
+			AreaErrorLabel.IsVisible = false;
 			AreaFirstImage.IsVisible = false;
 			AreaSecondImage.IsVisible = false;
 			

@@ -359,7 +359,8 @@
                      Text="Calculate"/>
                 
                 <Grid x:Name="CircleDiagramsGrid"
-                    Margin="90, 5, 0, 0">
+                    Margin="90, 5, 0, 0"
+                    IsVisible="False">
                     
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
