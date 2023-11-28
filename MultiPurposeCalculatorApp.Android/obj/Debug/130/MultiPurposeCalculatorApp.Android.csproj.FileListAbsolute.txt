@@ -681,3 +681,4 @@ C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\res\drawable\icons8_radius_96.png
 C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\res\drawable\icons8_diameter_96.png
+C:\Users\Joseph\source\repos\MultiPurposeCalculatorApp\MultiPurposeCalculatorApp.Android\obj\Debug\130\res\drawable\icons8_feedback_24.png

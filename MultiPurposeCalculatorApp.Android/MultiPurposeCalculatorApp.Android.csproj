@@ -79,6 +79,7 @@
     <AndroidResource Include="Resources\drawable\icons8_border_bottom_48.png" />
     <AndroidResource Include="Resources\drawable\icons8_border_left_48.png" />
     <AndroidResource Include="Resources\drawable\icons8_diameter_96.png" />
+    <AndroidResource Include="Resources\drawable\icons8_feedback_24.png" />
     <AndroidResource Include="Resources\drawable\icons8_radius_96.png" />
     <AndroidResource Include="Resources\drawable\parallelogram_base_image.png" />
     <AndroidResource Include="Resources\drawable\parallelogram_height_image.png" />

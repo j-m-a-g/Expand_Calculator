@@ -132,8 +132,42 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CalculateSquareAreaButton_OnClicked(object sender, EventArgs e)
 		{
-			AreaFirstImage.IsVisible = false;
-			AreaSecondImage.IsVisible = false;
+			CheckUnitSelection();
+			
+			switch (AreaFirstImage.IsVisible)
+			{
+				case true:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+			}
+			switch (AreaSecondImage.IsVisible)
+			{
+				case true:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+			}
 			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
@@ -172,7 +206,7 @@ namespace MultiPurposeCalculatorApp
 				}
 				else
 				{
-					AreaErrorLabel.IsVisible = false;
+					HideAreaErrorLabel();
 					AreaResultLabel.IsVisible = true;
 					double squareFirstSideEntryDouble = double.Parse(SquareFirstSideEntry.Text);
 					double squareSecondSideEntryDouble = double.Parse(SquareSecondSideEntry.Text);
@@ -183,8 +217,42 @@ namespace MultiPurposeCalculatorApp
 
 		private void CalculateTriangleAreaButton_OnClicked(object sender, EventArgs e)
 		{
-			AreaFirstImage.IsVisible = false;
-			AreaSecondImage.IsVisible = false;
+			CheckUnitSelection();
+			
+			switch (AreaFirstImage.IsVisible)
+			{
+				case true:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+			}
+			switch (AreaSecondImage.IsVisible)
+			{
+				case true:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+			}
 			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
@@ -223,7 +291,7 @@ namespace MultiPurposeCalculatorApp
 				}
 				else
 				{
-					AreaErrorLabel.IsVisible = false;
+					HideAreaErrorLabel();
 					AreaResultLabel.IsVisible = true;
 					double triangleBaseDouble = double.Parse(TriangleBaseEntry.Text);
 					double triangleHeightDouble = double.Parse(TriangleHeightEntry.Text);
@@ -246,8 +314,58 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CalculateTrapezoidAreaButton_OnClicked(object sender, EventArgs e)
 		{
-			AreaFirstImage.IsVisible = false;
-			AreaSecondImage.IsVisible = false;
+			CheckUnitSelection();
+			switch (AreaFirstImage.IsVisible)
+			{
+				case true:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaFirstImage.IsVisible = false;
+					break;
+				}
+			}
+			switch (AreaSecondImage.IsVisible)
+			{
+				case true:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaSecondImage.IsVisible = false;
+					break;
+				}
+			}
+			switch (AreaThirdImage.IsVisible)
+			{
+				case true:
+				{
+					AreaThirdImage.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					AreaThirdImage.IsVisible = false;
+					break;
+				}
+			}
 			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
@@ -287,7 +405,7 @@ namespace MultiPurposeCalculatorApp
 				}
 				else
 				{
-					AreaErrorLabel.IsVisible = false;
+					HideAreaErrorLabel();
 					AreaResultLabel.IsVisible = true;
 					
 					double trapezoidFirstBaseDouble = double.Parse(TrapezoidFirstBaseEntry.Text);
@@ -323,7 +441,7 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CircleRadiusDiameterEntry_OnFocused(object sender, FocusEventArgs e)
 		{
-			AreaErrorLabel.IsVisible = false;
+			HideAreaErrorLabel();
 			
 			// PERFORMANCE TWEAKS
 			
@@ -366,8 +484,24 @@ namespace MultiPurposeCalculatorApp
 		
 		private void CalculateCircleAreaButton_OnClicked(object sender, EventArgs e)
 		{
-			CircleDiagramsGrid.IsVisible = false;
-			AreaResultLabel.IsVisible = true;
+			CheckUnitSelection();
+			switch (CircleDiagramsGrid.IsVisible)
+			{
+				case true:
+				{
+					CircleDiagramsGrid.IsVisible = false;
+					break;
+				}
+				case false:
+				{
+					break;
+				}
+				default:
+				{
+					CircleDiagramsGrid.IsVisible = false;
+					break;
+				}
+			}
 			
 			if (AreaUnitsChipsGroup.SelectedItem == "Yards (yd)")
 			{
@@ -407,7 +541,8 @@ namespace MultiPurposeCalculatorApp
 				}
 				else
 				{
-					AreaErrorLabel.IsVisible = false;
+					AreaResultLabel.IsVisible = true;
+					HideAreaErrorLabel();
 					
 					double circleMeasurement = double.Parse(CircleRadiusDiameterEntry.Text);
 				
@@ -465,7 +600,7 @@ namespace MultiPurposeCalculatorApp
 		private void SwitchDiagramImages(Image firstDiagram, Image secondDiagram, Image showingDiagram)
 		{
 			AreaResultLabel.IsVisible = false;
-			// Method that allows you to change the informational
+			// Allows you to change the informational
 			// diagram shown to the user in any calculator page.
 			firstDiagram.IsVisible = false;
 			secondDiagram.IsVisible = false;
@@ -483,8 +618,9 @@ namespace MultiPurposeCalculatorApp
 		private void SwitchTrapezoidDiagramImages(Image firstDiagram, Image secondDiagram, Image thirdDiagram, Image showingDiagram)
 		{
 			AreaResultLabel.IsVisible = false;
-			// Method that allows you to change the informational
-			// diagram shown to the user in any calculator page.
+			// Allows you to change the informational
+			// diagram shown to the user in the trapezoid area
+			// calculator page.
 			firstDiagram.IsVisible = false;
 			secondDiagram.IsVisible = false;
 			thirdDiagram.IsVisible = false;
@@ -504,7 +640,7 @@ namespace MultiPurposeCalculatorApp
 			CircleStackLayout.IsVisible = false;
 			
 			AreaResultLabel.IsVisible = false;
-			AreaErrorLabel.IsVisible = false;
+			HideAreaErrorLabel();
 			AreaFirstImage.IsVisible = false;
 			AreaSecondImage.IsVisible = false;
 			
@@ -513,7 +649,7 @@ namespace MultiPurposeCalculatorApp
 		
 		private void ClickedOrUnclicked(ImageButton clicked)
 		{
-			// Local method that resets all the background colors of
+			// Resets all the background colors of
 			// each ImageButton to a non-clicked state, then sets the
 			// desired parameter-based ImageButton to have a BackgroundColor
 			// of a clicked state.
@@ -547,6 +683,14 @@ namespace MultiPurposeCalculatorApp
 			SettingsStackLayout.IsVisible = false;
 
 			visiblePage.IsVisible = true;
+		}
+
+		private void CheckUnitSelection()
+		{
+			if (AreaUnitsChipsGroup.SelectedItem == null)
+			{
+				AreaErrorLabel.IsVisible = true;
+			}
 		}
 
 		private void EnableDarkMode(string darkAccent1, string darkAccent2)
